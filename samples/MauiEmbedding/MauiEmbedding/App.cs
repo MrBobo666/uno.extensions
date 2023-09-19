@@ -83,6 +83,7 @@ public class App : EmbeddingApplication
 				Nested: new RouteMap[]
 				{
 					new RouteMap("Main", View: views.FindByViewModel<MainViewModel>()),
+					new RouteMap("Main", View: views.FindByViewModel<MainViewModel>()),
 				}
 			)
 		);
